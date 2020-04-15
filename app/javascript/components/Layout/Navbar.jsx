@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+import menuIcon from '../../images/menu-icon.png';
+
 class Navbar extends React.Component {
   constructor(props) {
   super(props);
@@ -32,7 +34,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <nav className= {this.state.scroll > this.state.top ? 'scrolled fixed-nav navbar navbar-expand navbar-dark fixed-top align-content-right' : 'navbar navbar-expand navbar-dark fixed-top align-content-right'}>
-        <img src="images/menu-icon.png" alt="menu icon" id="menu-icon" /> 
+        <img src={menuIcon} alt="menu icon" id="menu-icon" /> 
         <ul className="navbar-nav">
             <Link to="/" className="nav-item">About Me</Link>
             <Link to="/blog" className="nav-item">Blog</Link>
