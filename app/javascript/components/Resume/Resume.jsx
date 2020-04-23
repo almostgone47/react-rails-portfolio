@@ -79,9 +79,9 @@ const Resume = () => {
                                     <li>Achieved APIs calls from back end Ruby on Rails using React Axios</li>
                                 </ul>
                                 <h4 className="card-title">Education</h4>
-                                <h5 className="card-title">Hack Reactor, <span className="subtext">Advanced Software Engineering Immersive – </span><span className="subtext-grey">San Francisco, CA</span></h5>      
-                                <h5 className="card-title">Next Academy, <span className="subtext">Full-Stack Web Development – </span><span className="subtext-grey">Kuala Lumpur, Malaysia</span></h5>      
-                                <h5 className="card-title">Devry University,<span className="subtext"> Bachelors of Science in Technical Management – </span><span className="subtext-grey">Denver, CO</span>
+                                <h5 className="card-title">Hack Reactor, <span className="subtext-grey">Advanced Software Engineering Immersive – </span><span className="subtext">San Francisco, CA</span></h5>      
+                                <h5 className="card-title">Next Academy, <span className="subtext-grey">Full-Stack Web Development – </span><span className="subtext">Kuala Lumpur, Malaysia</span></h5>      
+                                <h5 className="card-title">Devry University,<span className="subtext-grey"> Bachelors of Science in Technical Management – </span><span className="subtext">Denver, CO</span>
                                 </h5>
                             </div>
                         
