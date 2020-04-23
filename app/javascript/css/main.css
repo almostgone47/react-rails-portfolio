@@ -5,7 +5,8 @@ body {
 	transition: .2s ease-in-out;
 	-webkit-transition: .2s ease-in-out;
   	-moz-transition: .2s ease-in-out;
-  	-o-transition: .2s ease-in-out;
+	  -o-transition: .2s ease-in-out;
+	word-wrap: none;
 }
 
 .navbar {
@@ -333,32 +334,86 @@ input:focus, textarea:focus {
 	color: #eee;
 }
 
+.ResumeHeader {
+	display: flex;
+	justify-content: space-between;
+}
+
+.ResumeHeader h2 {
+	font-size: 28px;
+    text-align: left;
+    color: #222;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.ResumeHeader h3 {
+	color: #555;
+	font-size: 22px;
+	margin-bottom: 0;
+}
+
+.ResumeHeader h5, .ResumeHeader p {
+	color: #888;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+
+.ResumeHeaderColumn2 {
+	text-align: right;
+	font-size: 10px;
+	padding: 14px 0px 0;
+}
+
+.ResumeHeaderColumn2 a {
+	color: #2dbca0;
+    text-decoration: none;
+}
+
+.ResumeHeaderColumn2 a:hover {
+	color: #154d41;
+}
+
+.ResumeBody {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 26px;
+}
+
 .Resume .col-md-8 {
 	margin: 0 auto;
 }
 
 .Resume .card {
-	padding: 4rem;
+	padding: 3rem;
 	-webkit-box-shadow: 0px 0px 47px 14px rgba(0,0,0,1);
 	-moz-box-shadow: 0px 0px 47px 14px rgba(0,0,0,1);
 	box-shadow: 0px 0px 47px 14px rgba(0,0,0,1);
 }
 
 .Resume ul {
-	width: 90%;
+	width: 95%;
+	padding-inline-start: 20px;
 }
 
 .Resume li {
-	padding: 5px;
+	padding: 4px;
+}
+
+.ResumeSideBar ul {
+	list-style: none;
+	padding-inline-start: 0px;
 }
 
 .subtext {
 	color: #777777;
 }
 
-.subtext-grey, .Resume p{
-	color: #999999;
+.subtext, .subtext-grey {
+	font-weight: 300;
 }
+
+
 
 .card-body h4{
 	color: #2DBCA2;
@@ -374,6 +429,18 @@ hr {
 	border: 0;
 	background-color: #2DBCA2;
 	height: 2px;
+}
+
+.ResumeSideBar {
+	width: 18%;
+}
+
+.ResumeSideBar h4 {
+	font-size: 14px;
+}
+
+.ResumeSideBar li {
+	font-size: 12px;
 }
 
 footer {

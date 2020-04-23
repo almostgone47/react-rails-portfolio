@@ -3,6 +3,7 @@ import yelpPic from '../../images/yelpClone.png';
 import EtsyPic from '../../images/etsyClone.png';
 import githubPic from '../../images/gub.png';
 import hpPic from '../../images/hp-landing.png';
+import reviewPic from '../../images/review-module.png';
 
 
 const Projects = () => {
@@ -20,13 +21,13 @@ const Projects = () => {
                         <a href="https://enigmatic-wave-73537.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <h5 className="card-title">Yelp Clone</h5>
                         </a>
-                        <p className="card-text">Create listings for restaurants. Leave star ratings write reviews. Search for and read reviews left by otheres. Used the jquery Star Raty for star ratings, AWS S3 and Carrier Wave for saving photos. Devise and Omniauth for login. And used Google maps API for address mapping.</p>
+                        <p className="card-text">Create listings for restaurants. Leave star ratings write reviews. Search for and read reviews left by otheres. Used the JQuery Star Raty for star ratings, AWS S3 and Carrier Wave for saving photos. Devise and Omniauth for login. And used Google maps API for address mapping.</p>
                     </div>
                 </div>
                 <div className="card">
                     <div className="card-image">
                         <a href="https://enigmatic-wave-73537.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="img-a">
-                            <img className="card-img-top" src={EtsyPic} alt="A clone of etsy.com" />
+                            <img className="card-img-top" src={EtsyPic} />
                         </a>
                     </div>
                     <div className="card-body"><a href="https://enigmatic-wave-73537.herokuapp.com/" target="_blank" rel="noopener noreferrer">
@@ -51,14 +52,27 @@ const Projects = () => {
                 <div className="card">
                     <div className="card-image">
                         <a href="https://gentle-thicket-41849.herokuapp.com/" className="img-a" target="_blank" rel="noopener noreferrer">
-                            <img className="card-img-top" src={githubPic} alt="Color Game" />
+                            <img className="card-img-top" src={githubPic} />
                         </a>
                     </div>
                     <div className="card-body">
                         <a href="https://mighty-brushlands-14214.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                             <h5 className="card-title">Github Search React App</h5>
                         </a>
-                        <p className="card-text">This project is done in react using the Github API to find users by their username.</p>
+                        <p className="card-text">This project is done using React and the Github API to find users by their username.</p>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="card-image">
+                        <a href="#" className="img-a" target="_blank" rel="noopener noreferrer">
+                            <img className="card-img-top" src={reviewPic} />
+                        </a>
+                    </div>
+                    <div className="card-body">
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <h5 className="card-title">Hotel Booking Website, Review Module</h5>
+                        </a>
+                        <p className="card-text">Review and rating module I designed and developed using React, Express, Node, MySQL and D3. </p>
                     </div>
                 </div>
                 
